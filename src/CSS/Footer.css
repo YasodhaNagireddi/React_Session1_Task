@@ -1,0 +1,91 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.footer-container {
+  display: block;
+  flex-direction: column;
+  background-color:#151515;
+  color: #7c7f80;
+}
+
+.food-img {
+  height: 350px;
+  width: 343px;
+  
+  
+}
+.footer-details {
+  display: flex;
+  margin-top: 30px;
+
+}
+.footer-section1 {
+  width: 1050px;
+}
+.footer-section1 .des {
+  font-size: 17px;
+  margin-left: 50px;
+}
+
+.footer-section1 .h3-heading {
+  margin-left: 250px;
+  color: white;
+  font-weight: bold;
+}
+.footer-section1 .social-icons {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 200px;
+}
+.footer-section1 .social-icons img {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  color: white;
+}
+.footer-section2 {
+  width: 650px;
+  font-size: 17px;
+  
+}
+.footer-section2 h3{
+padding-bottom: 20px;
+color: white;
+    font-weight: bold;
+}
+.footer-section2 img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.footer-section2 .icon{
+    display: flex;
+    
+}
+.footer-section2 p {
+    padding-bottom: 10px;
+}
+.footer-section3 {
+  width: 450px;
+  font-size: 17px;
+}
+.footer-section3 h3{
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+.footer-section3 h5{
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+}
+.footer-container .copyrights{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contact-container{
+    background-image: url('https://t4.ftcdn.net/jpg/05/62/17/79/360_F_562177976_dH3SgNcJBPjkvonJIyBvemkNCvPfOEKB.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 70px;
+    
+}
+.contact-heading{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #E73B3A;
+    text-transform: uppercase;
+
+}
+
+.details{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: gold;
+}
+
+.contact-form{
+    
+    padding:45px ;
+    width :36%;
+    margin-left: 33%;
+    border-radius: .5rem;
+    color:rgb(160, 244, 235);
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+
+.contact-form input {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.contact-form textarea{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.submit-btn{
+width: 90px;
+height: 30px;
+outline: none;
+border-radius: 3px;
+background-color: #E73B3A;
+color: aliceblue;
+border: none;
+font-size: 16px;
+padding: 5px;
+cursor: pointer;
+}
+
